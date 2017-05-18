@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.accompany">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA7EKyncwhfbtg0j7A4L0C8xtzFfmKJTds"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewRequestActivity"
+            android:label="Create Request"/>
+        <activity android:name=".ViewRequestActivity"
+            android:label="View Requests"/>
+        <activity android:name=".RequestInfoActivity"
+            android:label="Request Info"/>
+        <activity android:name=".MessageRequest"
+            android:label="Chat Room"/>
+        <activity android:name=".MapsActivity"
+            android:label="Select Location"/>
+    </application>g
+
+</manifest>
